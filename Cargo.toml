@@ -1,0 +1,10 @@
+[package]
+name = "disel-demo"
+version = "0.1.0"
+authors = ["Hiimtaylorjones <taylorjonessoftware@gmail.com>"]
+
+[dependencies]
+diesel = "0.6.1"
+diesel_codegen = { version = "0.6.1", default-features = false, features = ["nightly", "postgres"] }
+dotenv = "0.8.0"
+dotenv_macros = "0.8.0"
